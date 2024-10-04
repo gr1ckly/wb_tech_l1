@@ -1,0 +1,54 @@
+use std::arch::x86_64::_mm256_floor_pd;
+use std::collections::HashSet;
+use crate::l1_10::conveyor;
+use crate::l1_11::merge_in_intervals;
+use crate::l1_12::intersection;
+use crate::l1_13::check_equals;
+use crate::l1_14::check_type;
+use crate::l1_15::quicksort;
+use crate::l1_16::bin_search;
+use crate::l1_17::concurrent_increments;
+use crate::l1_18::flip_line;
+use crate::l1_19::flip_words;
+use crate::l1_1::Person;
+use crate::l1_20::sim_connection_scanner;
+use crate::l1_21::{difference, divide, multiplication, sum};
+use crate::l1_22::remove_i;
+use crate::l1_23::Point;
+use crate::l1_24::check_unique;
+use crate::l1_2::square_parallel;
+use crate::l1_3::square_sum;
+use crate::l1_4::spmc;
+use crate::l1_5::safety_spmc;
+use crate::l1_6::running_n_time;
+use crate::l1_7::{close_chanel, tokio_tasks};
+use crate::l1_8::{write_DashMap, write_HashMap};
+use crate::l1_9::change_bit;
+
+mod l1_2;
+mod l1_1;
+mod l1_3;
+mod l1_4;
+mod l1_5;
+mod l1_6;
+mod l1_7;
+mod l1_8;
+mod l1_9;
+mod l1_10;
+mod l1_11;
+mod l1_12;
+mod l1_13;
+mod l1_14;
+mod l1_15;
+mod l1_16;
+mod l1_18;
+mod l1_17;
+mod l1_19;
+mod l1_20;
+mod l1_21;
+mod l1_22;
+mod l1_23;
+mod l1_24;
+
+fn main() {
+}

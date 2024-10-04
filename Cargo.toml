@@ -1,0 +1,13 @@
+[package]
+name = "L1"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+flume = "0.10"
+chrono = "0.4"
+tokio = { version = "1.40.0", features = ["full"] }
+tokio-util = "0.7.12"
+dashmap = "5.3.4"
+regex = "1.11.0"
+num = "0.4.1"
